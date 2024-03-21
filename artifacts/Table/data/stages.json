@@ -1,0 +1,83 @@
+[
+	{
+		"id": "d9efd30b-c709-4aac-80c0-aa786457f905",
+		"createdAt": "1701807516605",
+		"updatedAt": "1701807516605",
+		"createdBy": "owen.pettiford@neptune-software.com",
+		"updatedBy": "owen.pettiford@neptune-software.com",
+		"StageCode": "L1",
+		"StageName": "Stage L1"
+	},
+	{
+		"id": "cc1af395-0776-4094-9bd1-9a331e5c259b",
+		"createdAt": "1701807516605",
+		"updatedAt": "1701807516605",
+		"createdBy": "owen.pettiford@neptune-software.com",
+		"updatedBy": "owen.pettiford@neptune-software.com",
+		"StageCode": "Idea",
+		"StageName": "Idea"
+	},
+	{
+		"id": "c1f09dfe-22a4-45e0-a19c-199708ce1ff9",
+		"createdAt": "1701807516605",
+		"updatedAt": "1701807516605",
+		"createdBy": "owen.pettiford@neptune-software.com",
+		"updatedBy": "owen.pettiford@neptune-software.com",
+		"StageCode": "L0",
+		"StageName": "Stage L0"
+	},
+	{
+		"id": "9df5479c-15d5-49a9-9146-66209e2795e1",
+		"createdAt": "1701807516605",
+		"updatedAt": "1701807516605",
+		"createdBy": "owen.pettiford@neptune-software.com",
+		"updatedBy": "owen.pettiford@neptune-software.com",
+		"StageCode": "L5",
+		"StageName": "Stage L5"
+	},
+	{
+		"id": "9ccf4b0e-5741-4804-826d-29c75d1a1ac4",
+		"createdAt": "1701807516605",
+		"updatedAt": "1701807516605",
+		"createdBy": "owen.pettiford@neptune-software.com",
+		"updatedBy": "owen.pettiford@neptune-software.com",
+		"StageCode": "L6",
+		"StageName": "Stage L6"
+	},
+	{
+		"id": "6e1ae7e0-cad8-466d-af19-b28b734d0f9f",
+		"createdAt": "1701807516605",
+		"updatedAt": "1701807516605",
+		"createdBy": "owen.pettiford@neptune-software.com",
+		"updatedBy": "owen.pettiford@neptune-software.com",
+		"StageCode": "L4",
+		"StageName": "Stage L4"
+	},
+	{
+		"id": "5874f682-4018-4e62-9a9b-4f3da0d8c581",
+		"createdAt": "1701807516605",
+		"updatedAt": "1701807516605",
+		"createdBy": "owen.pettiford@neptune-software.com",
+		"updatedBy": "owen.pettiford@neptune-software.com",
+		"StageCode": "L7",
+		"StageName": "Stage L7"
+	},
+	{
+		"id": "53afebfc-fd0d-4c36-b16e-5542a5241c70",
+		"createdAt": "1701807516605",
+		"updatedAt": "1701807516605",
+		"createdBy": "owen.pettiford@neptune-software.com",
+		"updatedBy": "owen.pettiford@neptune-software.com",
+		"StageCode": "L3",
+		"StageName": "Stage L3"
+	},
+	{
+		"id": "1a84027b-45ee-4041-a7bb-44249b3d9056",
+		"createdAt": "1701807516605",
+		"updatedAt": "1701807516605",
+		"createdBy": "owen.pettiford@neptune-software.com",
+		"updatedBy": "owen.pettiford@neptune-software.com",
+		"StageCode": "L2",
+		"StageName": "Stage L2"
+	}
+]

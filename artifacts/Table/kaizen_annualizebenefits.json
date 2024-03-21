@@ -80,9 +80,9 @@
 	"foreignKeys": [],
 	"name": "kaizen_annualizebenefits",
 	"description": null,
-	"ver": "24.1.16.1157",
-	"enableAudit": false,
-	"includeDataInPackage": false,
+	"ver": "24.3.21.164",
+	"enableAudit": true,
+	"includeDataInPackage": true,
 	"package": "14552044-9192-ee11-8925-0022489e2d9f",
 	"rolesRead": [],
 	"rolesWrite": []

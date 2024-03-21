@@ -24,9 +24,9 @@
 	"foreignKeys": [],
 	"name": "stages",
 	"description": "Kaizen Stages",
-	"ver": "24.2.5.1618",
-	"enableAudit": false,
-	"includeDataInPackage": false,
+	"ver": "24.3.21.167",
+	"enableAudit": true,
+	"includeDataInPackage": true,
 	"package": "14552044-9192-ee11-8925-0022489e2d9f",
 	"rolesRead": [],
 	"rolesWrite": []
