@@ -1,0 +1,360 @@
+{
+	"id": "14552044-9192-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T10:38:31.596Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/DVieiraNeptSoft/Kaizen-POC"
+	},
+	"name": "Kaizen POC",
+	"description": null,
+	"ver": "24.3.21.1435",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "f6691baf-9792-ee11-8925-0022489e2d9f",
+			"application": "kaizen_createproject",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "14552044-9192-EE11-8925-0022489E2D9F"
+			}
+		},
+		{
+			"id": "87aba103-a392-ee11-8925-0022489e2d9f",
+			"application": "kaizen_projectviewer",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "14552044-9192-EE11-8925-0022489E2D9F"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "ac509350-1a98-ee11-8925-0022489e23d1",
+			"name": "kaizen_annualizebenefits",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "8d37a126-9692-ee11-8925-0022489e2d9f",
+			"name": "kaizen_costsbenefits API",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "26554015-9692-ee11-8925-0022489e2d9f",
+			"name": "kaizen_projecttable API",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "ef404c52-9592-ee11-8925-0022489e2d9f",
+			"name": "kaizen_projecttable",
+			"description": null
+		},
+		{
+			"id": "d651ef39-1a98-ee11-8925-0022489e23d1",
+			"name": "kaizen_annualizebenefits",
+			"description": null
+		},
+		{
+			"id": "c50282c5-5b93-ee11-8925-0022489e2d9f",
+			"name": "kaizen_costs",
+			"description": "Kaizen Cost Table"
+		},
+		{
+			"id": "736d1e34-ab93-ee11-8925-0022489e2d9f",
+			"name": "stages",
+			"description": "Kaizen Stages"
+		},
+		{
+			"id": "41fc7f0a-2294-ee11-8925-0022489e2d9f",
+			"name": "kaizencostbenefit",
+			"description": "Kaizen Costs and Benefits"
+		},
+		{
+			"id": "3c39f4c9-9592-ee11-8925-0022489e2d9f",
+			"name": "kaizen_costsbenefits",
+			"description": null
+		},
+		{
+			"id": "3a1c5d26-5b93-ee11-8925-0022489e2d9f",
+			"name": "kaizen_project",
+			"description": "Kaizen Project - Header"
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "b708dd9e-c792-ee11-8925-0022489e2d9f",
+			"name": "KiazenListReport",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "904327fb-2294-ee11-8925-0022489e2d9f",
+			"name": "CostReport",
+			"description": "",
+			"application": "planet9_adaptive_tile_table"
+		},
+		{
+			"id": "7b9b686a-9799-ee11-8925-0022489e23d1",
+			"name": "CostSavingsBI",
+			"description": "",
+			"application": "planet9_adaptive_bi"
+		},
+		{
+			"id": "728637bf-2494-ee11-8925-0022489e2d9f",
+			"name": "Benefits",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "6d7b55f8-c692-ee11-8925-0022489e2d9f",
+			"name": "KaizenProjectsBI",
+			"description": "",
+			"application": "planet9_adaptive_bi"
+		},
+		{
+			"id": "5c317ef0-2494-ee11-8925-0022489e2d9f",
+			"name": "CostReportBI",
+			"description": "",
+			"application": "planet9_adaptive_bi"
+		},
+		{
+			"id": "5a439961-2394-ee11-8925-0022489e2d9f",
+			"name": "CostSummary",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "1820d11d-0a99-ee11-8925-0022489e23d1",
+			"name": "AnnualBenefits",
+			"description": "",
+			"application": "planet9_adaptive_bi"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "ffea6a4e-0b99-ee11-8925-0022489e23d1",
+			"description": null,
+			"name": "Validated Benefits"
+		},
+		{
+			"id": "f85c995d-2694-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "CostReport"
+		},
+		{
+			"id": "ea149dd8-a893-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "Kaizen Project List"
+		},
+		{
+			"id": "dd59d482-c092-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "tile_kaizenProjectViewer"
+		},
+		{
+			"id": "a7d190bb-a893-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "Create Kaizen Idea"
+		},
+		{
+			"id": "89c8e0ca-6593-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "KaizenOverviewSBU"
+		},
+		{
+			"id": "6c5f5376-2694-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "BenefitReport"
+		},
+		{
+			"id": "3b9cb4be-6b93-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "KaizenOverviewStage"
+		},
+		{
+			"id": "2eccadf5-a192-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "tile_kaizenCreateProject"
+		}
+	],
+	"category": [
+		{
+			"id": "dabf5d2a-6c93-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "Kaizen Reports"
+		},
+		{
+			"id": "6512601c-a292-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "tilegroup_kaizenProjectApps"
+		},
+		{
+			"id": "119a09f5-a893-ee11-8925-0022489e2d9f",
+			"description": null,
+			"name": "Kaizen Simple"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "af9b9f45-a292-ee11-8925-0022489e2d9f",
+			"name": "launchpad_kaizenPOC",
+			"description": null
+		},
+		{
+			"id": "0787663b-9193-ee11-8925-0022489e2d9f",
+			"name": "launchpad_kaizenPOC Simple",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [
+		{
+			"id": "f1c7125a-1598-ee11-8925-0022489e23d1",
+			"name": "L6 Approval Role",
+			"description": null
+		},
+		{
+			"id": "aeea8c4c-1598-ee11-8925-0022489e23d1",
+			"name": "L4 Approval Role",
+			"description": null
+		},
+		{
+			"id": "ad502753-1598-ee11-8925-0022489e23d1",
+			"name": "L5 Approval Role",
+			"description": null
+		},
+		{
+			"id": "9f2636b6-9692-ee11-8925-0022489e2d9f",
+			"name": "L2 General Role",
+			"description": null
+		},
+		{
+			"id": "8e6f9b9a-9692-ee11-8925-0022489e2d9f",
+			"name": "L1 General Role",
+			"description": null
+		},
+		{
+			"id": "46b44189-9692-ee11-8925-0022489e2d9f",
+			"name": "L0 Ideation Role",
+			"description": null
+		},
+		{
+			"id": "3d7f603f-c292-ee11-8925-0022489e2d9f",
+			"name": "L2 Approval Role",
+			"description": null
+		},
+		{
+			"id": "25d1153f-c092-ee11-8925-0022489e2d9f",
+			"name": "L1 Appraisal Role",
+			"description": null
+		},
+		{
+			"id": "0471ea3e-1598-ee11-8925-0022489e23d1",
+			"name": "L3 Approval Role",
+			"description": null
+		}
+	],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [
+		{
+			"id": "ad5038e9-9692-ee11-8925-0022489e2d9f",
+			"name": "Kaizen L0 Group",
+			"description": null
+		},
+		{
+			"id": "a11e5756-c092-ee11-8925-0022489e2d9f",
+			"name": "Kaizen L1 Group Appraisal",
+			"description": null
+		},
+		{
+			"id": "8a10e11b-1598-ee11-8925-0022489e23d1",
+			"name": "Kaizen L5 Group Appraisal",
+			"description": null
+		},
+		{
+			"id": "895c1915-1598-ee11-8925-0022489e23d1",
+			"name": "Kaizen L3 Group Appraisal",
+			"description": null
+		},
+		{
+			"id": "8710e11b-1598-ee11-8925-0022489e23d1",
+			"name": "Kaizen L4 Group Appraisal",
+			"description": null
+		},
+		{
+			"id": "1aab9b26-1598-ee11-8925-0022489e23d1",
+			"name": "Kaizen L6 Group Appraisal",
+			"description": null
+		},
+		{
+			"id": "11397157-c292-ee11-8925-0022489e2d9f",
+			"name": "Kaizen L2 Group Appraisal",
+			"description": null
+		},
+		{
+			"id": "100dc207-9792-ee11-8925-0022489e2d9f",
+			"name": "Kaizen L1 Group General",
+			"description": null
+		},
+		{
+			"id": "0ee9ac14-9792-ee11-8925-0022489e2d9f",
+			"name": "Kaizen L2 Group General",
+			"description": null
+		}
+	],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "8b51cfd5-c692-ee11-8925-0022489e2d9f",
+			"name": "kaizenproject",
+			"description": "Kaizen Projects"
+		},
+		{
+			"id": "814475c9-2294-ee11-8925-0022489e2d9f",
+			"name": "KaizenCostsBenefits",
+			"description": "Kaizen Costs Benefits"
+		},
+		{
+			"id": "58b414f2-5b93-ee11-8925-0022489e2d9f",
+			"name": "KaizenCosts",
+			"description": "KaizenCosts"
+		},
+		{
+			"id": "1620d11d-0a99-ee11-8925-0022489e23d1",
+			"name": "AnnualBenefits",
+			"description": "Annual Benefits"
+		},
+		{
+			"id": "13077b35-5c93-ee11-8925-0022489e2d9f",
+			"name": "KaizenProject1",
+			"description": "Kaizen Project"
+		},
+		{
+			"id": "020051c1-ab93-ee11-8925-0022489e2d9f",
+			"name": "Stages",
+			"description": "Stages"
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

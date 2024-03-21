@@ -1,0 +1,33 @@
+{
+	"id": "736d1e34-ab93-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-05T20:16:45.196Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"fields": [
+		{
+			"id": "dccfb544-927e-4607-da88-59be3e232c81",
+			"fieldName": "StageCode",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Stage Code",
+			"isNullable": true
+		},
+		{
+			"id": "f5be54b7-9d9a-48b5-fdb6-a226caa345f7",
+			"fieldName": "StageName",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Stage Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "stages",
+	"description": "Kaizen Stages",
+	"ver": "24.2.5.1618",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"rolesRead": [],
+	"rolesWrite": []
+}

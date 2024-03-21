@@ -1,0 +1,47 @@
+{
+	"id": "3a1c5d26-5b93-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-05T10:43:42.710Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"fields": [
+		{
+			"id": "1af9c485-9dc2-48b5-9c57-7800955f687b",
+			"fieldName": "ProjectID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"description": "Project ID"
+		},
+		{
+			"id": "06739f54-0204-44dc-e592-e506a6d36780",
+			"fieldName": "ProjectDescription",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Project Description",
+			"isNullable": true
+		},
+		{
+			"id": "a678440b-88cc-4ab5-8878-5a4fa38d3255",
+			"fieldName": "BusinessUNit",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Business Unit",
+			"isNullable": true
+		},
+		{
+			"id": "d3e058ab-6882-4d55-e65a-4fa978ef9d98",
+			"fieldName": "PorjectType",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "kaizen_project",
+	"description": "Kaizen Project - Header",
+	"ver": "24.2.5.1618",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"rolesRead": [],
+	"rolesWrite": []
+}

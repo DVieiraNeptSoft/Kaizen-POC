@@ -1,0 +1,581 @@
+{
+	"id": "ef404c52-9592-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T11:07:33.360Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "a59d918f-6828-4424-eafe-f4de09dd1d04",
+			"fieldName": "projectID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7beb4fa4-c667-4c71-d8c7-7ab587d5d66c",
+			"fieldName": "stage",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5304ebdd-09e5-49cf-ca41-ac7eafa3d67b",
+			"fieldName": "L0approver",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ab3a7f2d-6fa0-47a0-b311-4e5b92b36c95",
+			"fieldName": "L0approver_dateApproved",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2b884372-331a-4d90-e652-477e50cc6d1d",
+			"fieldName": "L1approver",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "59ddafa1-4feb-48c6-f685-7bb22c3ff404",
+			"fieldName": "L1approver_dateApproved",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0f0247c0-089f-47cf-f06b-20774f360181",
+			"fieldName": "L2approver",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "cb27e14f-d0a7-4c79-cb0e-8ad6e908ca51",
+			"fieldName": "L2approver_dateApproved",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8e2d57e2-4749-4f6a-e28b-dcf2b0817242",
+			"fieldName": "L3approver",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "51d9e4c1-b9e4-4967-cb9a-67fcb906a84f",
+			"fieldName": "L3approver_dateApproved",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "02dfc67a-e8a2-4bb2-ff22-70aeb3d06f7b",
+			"fieldName": "L4approver",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1bf47931-9347-4d99-e4b3-d4bd5a9ea6ec",
+			"fieldName": "L4approver_dateApproved",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e7fac76f-8bec-4ede-94ea-aab138a0eb83",
+			"fieldName": "L5approver",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "02a79342-c7fb-4503-c01b-721151504822",
+			"fieldName": "L5approver_dateApproved",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f0b8d85a-ebeb-40b6-903f-ed97d4946336",
+			"fieldName": "L6approver",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "bd47ff77-e95b-482d-d3ba-3ccb1a91a1d8",
+			"fieldName": "L6approver_dateApproved",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "52cac82b-6502-4d74-94ef-a4e1518f2aa6",
+			"fieldName": "L7approver",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a82c7a74-0282-4019-a6ce-376274a79b75",
+			"fieldName": "L7approver_dateApproved",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9f0258dc-f38d-425e-bfd9-f587215d4193",
+			"fieldName": "originator",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "289daffe-2346-4249-e456-9535da8563de",
+			"fieldName": "dateRaised",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "59219cc6-5bfb-4817-e069-6ba519da6fc1",
+			"fieldName": "improvementType",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Improvement Type",
+			"isNullable": true
+		},
+		{
+			"id": "c9894b20-53a7-4d74-9b0c-05eed0b8e62e",
+			"fieldName": "sbu",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "SBU",
+			"isNullable": true
+		},
+		{
+			"id": "6131a5d9-d80e-4340-8894-1ad8ca50c7b3",
+			"fieldName": "site",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Site",
+			"isNullable": true
+		},
+		{
+			"id": "07f56c3a-5452-4c15-8de3-ff54f42de72b",
+			"fieldName": "departmentFunctionArea",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Department or Functional Area",
+			"isNullable": true
+		},
+		{
+			"id": "df5ae6ba-d716-4036-978e-3d1d8865351c",
+			"fieldName": "kaizenProjectDepartment",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Kaizen Project Description",
+			"isNullable": true
+		},
+		{
+			"id": "4d59cdf5-75b4-4736-9750-b91de1ab1050",
+			"fieldName": "businessCaseForAction",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Business Case for Action",
+			"isNullable": true
+		},
+		{
+			"id": "9bc98f6b-297b-4ef4-b1d0-47650ac7330d",
+			"fieldName": "safetyCriteria",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Safety Criteria",
+			"isNullable": true
+		},
+		{
+			"id": "d7d38a08-410f-4184-dfa3-82ecade30205",
+			"fieldName": "qualityCriteria",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Quality Criteria",
+			"isNullable": true
+		},
+		{
+			"id": "f0057075-5d08-4f28-8914-826f1afc1786",
+			"fieldName": "onTimeToPromiseCustomer",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "On-Time to Promise Customer Criteria",
+			"isNullable": true
+		},
+		{
+			"id": "1ab48fb3-ffe4-46c4-c057-f331c2925468",
+			"fieldName": "activityTypeCriteria",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Activity Type Criteria",
+			"isNullable": true
+		},
+		{
+			"id": "b03b22b4-4c52-4c27-c21b-4634b8650fa5",
+			"fieldName": "opExCiCOEtrainedFacilitatorCriteria",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "OpExCI COE, Trained Facilitator Criteria",
+			"isNullable": true
+		},
+		{
+			"id": "ec21700c-2ca3-4948-be63-320f2e0ca32f",
+			"fieldName": "okrImpactCriteria",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "OKR Impact Criteria",
+			"isNullable": true
+		},
+		{
+			"id": "95831d52-2a32-4cba-c687-69ff20edef42",
+			"fieldName": "potentialFinancialImpactCriteria",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Potential Financial Impact Criteria",
+			"isNullable": true
+		},
+		{
+			"id": "df1241c7-6f91-4a3e-f6a3-fcad6e498f7e",
+			"fieldName": "governanceDecisionCriteria",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Governance Decision Criteria",
+			"isNullable": true
+		},
+		{
+			"id": "28adff72-f7d9-498b-ceb0-29cc77cffac4",
+			"fieldName": "kaizenPriorityNumberCalculation",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Kaizen Priority Number Calculation (KPN)",
+			"isNullable": true
+		},
+		{
+			"id": "e7132f85-90d0-47e2-b710-3688cb851c13",
+			"fieldName": "approvedForPlanning",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Approved for Planning?",
+			"isNullable": true
+		},
+		{
+			"id": "1288ce90-a512-45f8-a88d-e268188fa400",
+			"fieldName": "kaizenFacilitatorName",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Kaizen Facilitator's Name",
+			"isNullable": true
+		},
+		{
+			"id": "f705fa99-9fc8-466a-c3fd-ea3656d2824a",
+			"fieldName": "plannedScheduledStartDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Planned Scheduled Start Date N-4 Week",
+			"isNullable": true
+		},
+		{
+			"id": "a54643b7-b418-4c1d-b99c-bad9df9a53ef",
+			"fieldName": "targetedCostSaving",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Targeted Cost Saving",
+			"isNullable": true
+		},
+		{
+			"id": "cd5a9a15-53e7-4587-c07a-9177d9e02751",
+			"fieldName": "targetedWorkingCapitalImprovement",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Targeted Working Capital Improvement",
+			"isNullable": true
+		},
+		{
+			"id": "d38f2745-2b12-42f4-f99c-dc395bf06aee",
+			"fieldName": "productivitySavings",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Productivity Savings",
+			"isNullable": true
+		},
+		{
+			"id": "a0bcd6a4-430a-413c-8528-c5fedbeae5e9",
+			"fieldName": "scrapReductionCostAvoidance",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Scrap Reduction, Cost Avoidance",
+			"isNullable": true
+		},
+		{
+			"id": "493b8b11-d7f6-4bc4-f118-a0588188862f",
+			"fieldName": "kaizenActivityCost",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Kaizen Activity Cost (materials, meals, consultant fees)",
+			"isNullable": true
+		},
+		{
+			"id": "903518fe-b7cc-4c58-ac03-d9d71187cc44",
+			"fieldName": "requiredLabourHours",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Required labour hours",
+			"isNullable": true
+		},
+		{
+			"id": "45b6b052-195f-4b19-b720-3d4aa8ed2589",
+			"fieldName": "targetedCostSavingSum",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Targeted Cost Saving Total",
+			"isNullable": true
+		},
+		{
+			"id": "4e4ae688-16c5-495b-91ab-1a7ced7ea3da",
+			"fieldName": "targetedWorkingCapitalImprovementSum",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Targeted Working Capital Improvement Total",
+			"isNullable": true
+		},
+		{
+			"id": "39de316f-29a4-49b0-bb7e-b951d4e9ab4e",
+			"fieldName": "productivitySavingsSum",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Productivity Savings Sum",
+			"isNullable": true
+		},
+		{
+			"id": "79274d50-bb12-4a8f-e776-5f8f0a9fbded",
+			"fieldName": "scrapReductionCostAvoidanceSum",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Scrap Reduction, Cost Avoidance Total",
+			"isNullable": true
+		},
+		{
+			"id": "60e873f7-b4fe-44d5-d2cc-3f96e27b4c73",
+			"fieldName": "kaizenActivityCostSum",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Kaizen Activity Cost Total",
+			"isNullable": true
+		},
+		{
+			"id": "64e92b75-49c2-47fa-af5c-0252116aa4ed",
+			"fieldName": "requiredLabourHoursSum",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Required labour hours Total",
+			"isNullable": true
+		},
+		{
+			"id": "7cfe0be6-e54b-46e1-ac33-b8e332cd81dc",
+			"fieldName": "kaizenStartDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Kaizen Start Date (N)",
+			"isNullable": true
+		},
+		{
+			"id": "179976db-95b6-4ccc-c24f-83f08df2125a",
+			"fieldName": "kaizenCompleteDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Kaizen Complete Date",
+			"isNullable": true
+		},
+		{
+			"id": "fd1cf99d-42ea-47ed-869c-4cd35642f1ba",
+			"fieldName": "kaizenReportDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Kaizen Report Out Date",
+			"isNullable": true
+		},
+		{
+			"id": "d6d1bd7d-3b10-41e1-cbb2-ad0591ee54d1",
+			"fieldName": "benefitsStartDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Benefits Start Date (N+2mo)",
+			"isNullable": true
+		},
+		{
+			"id": "20243c6e-ad78-4bee-9e52-d7b21e511838",
+			"fieldName": "validatedCostsSaving",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Validated Costs Savings",
+			"isNullable": true
+		},
+		{
+			"id": "75ff0711-0299-4433-f24b-dfc7a9225d76",
+			"fieldName": "validatedWorkingCapital",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Validated Working Capital improvement",
+			"isNullable": true
+		},
+		{
+			"id": "b751ca41-2f26-4f59-efbe-c6e830d78ac3",
+			"fieldName": "validatedCostAvoidance",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Validated Scrap Reduction, Cost Avoidance",
+			"isNullable": true
+		},
+		{
+			"id": "a145e697-84ca-4f6f-a219-a4baa83e6ee3",
+			"fieldName": "totalKaizenBenefits",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "TOTAL Kaizen BENEFIT IS SUM OF CS + WCR + CA, ANNUALIZED",
+			"isNullable": true
+		},
+		{
+			"id": "cd911ef5-ed71-4cdd-a64a-bfc4a1da01da",
+			"fieldName": "siteFinanceSignOff",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Site Finance Sign Off"
+		},
+		{
+			"id": "7ed692cb-cb17-4c57-81ed-28ca6c3581e6",
+			"fieldName": "financeSignOffDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "Finance Sign Off Date"
+		},
+		{
+			"id": "38bec778-95cc-4e01-d364-1966077b8014",
+			"fieldName": "sbuSponsorSignOff",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "SBU Sponsor Sign Off"
+		},
+		{
+			"id": "ca66ff1e-beee-4929-ddc9-9d3eb0cd0b32",
+			"fieldName": "sbuSponsorSignOffDate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true,
+			"description": "SBU Sponsor Sign Off date"
+		},
+		{
+			"id": "c98682fc-da39-4d92-cabf-a6346b361db1",
+			"fieldName": "labourHoursRate",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Labour Hours Rate $",
+			"isNullable": true
+		},
+		{
+			"id": "f55be834-b6c4-46b8-8f69-ca1818875368",
+			"fieldName": "labourHoursCost",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Labour Hours Cost",
+			"isNullable": true
+		},
+		{
+			"id": "c6037834-5cdf-4a22-9a1e-16b53a3e6346",
+			"fieldName": "validatedProductivitySavings",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Validated Productivity Savings",
+			"isNullable": true
+		},
+		{
+			"id": "44d0b61b-2626-42d5-a693-686fbde42b20",
+			"fieldName": "validatedKaizenActivityCost",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Validated Kaizen Activity Cost (Materials, Meals, Consultant Fees)",
+			"isNullable": true
+		},
+		{
+			"id": "11916f58-d722-4d13-bbd0-90f1b1f20093",
+			"fieldName": "validatedRequiredLabourHours",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Validated Required Labour Hours",
+			"isNullable": true
+		},
+		{
+			"id": "54e64224-8e2d-4d3c-a0ff-f51aa5bc8b68",
+			"fieldName": "validatedLabourHoursRate",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Validated Labour Hours Rate $",
+			"isNullable": true
+		},
+		{
+			"id": "ef9ef63f-1cf6-4878-92da-83e499ea22f1",
+			"fieldName": "validatedLabourHoursCost",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Validated Labour Hours Cost",
+			"isNullable": true
+		},
+		{
+			"id": "32504eb7-de9c-4249-fd85-f31f774cffc9",
+			"fieldName": "totalKaizenCosts",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Total Kaizen Costs",
+			"isNullable": true
+		},
+		{
+			"id": "51698ada-e9f2-4ad6-a75d-b277e638ab75",
+			"fieldName": "netNumber",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Net Number",
+			"isNullable": true
+		},
+		{
+			"id": "aea4db3d-5b94-4b3e-93cb-0435440a6c76",
+			"fieldName": "easeImplementation",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Ease of Implementation",
+			"isNullable": true
+		},
+		{
+			"id": "dcbd8c57-4a31-471a-f599-a79d1c774ed6",
+			"fieldName": "impactToBusiness",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Impact to Business",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "kaizen_projecttable",
+	"description": null,
+	"ver": "24.1.16.1719",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"rolesRead": [],
+	"rolesWrite": []
+}

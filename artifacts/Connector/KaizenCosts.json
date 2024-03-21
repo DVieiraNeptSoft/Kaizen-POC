@@ -1,0 +1,106 @@
+{
+	"id": "58b414f2-5b93-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-05T10:49:21.783Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"settings": {
+		"tableid": "c50282c5-5b93-ee11-8925-0022489e2d9f",
+		"previewable": true,
+		"hasDocumentation": false,
+		"fieldCatalog": [
+			{
+				"name": "ProjectID",
+				"label": "Proejct ID",
+				"type": "integer",
+				"usage": "BOTH",
+				"originalName": "ProjectID"
+			},
+			{
+				"name": "Type",
+				"label": "Type",
+				"type": "text",
+				"usage": "BOTH",
+				"originalName": "Type"
+			},
+			{
+				"name": "Date",
+				"label": "Date",
+				"type": "timestamp",
+				"usage": "BOTH",
+				"originalName": "Date"
+			},
+			{
+				"name": "Month",
+				"label": "Month",
+				"type": "text",
+				"usage": "BOTH",
+				"originalName": "Month"
+			},
+			{
+				"name": "Year",
+				"label": "Year",
+				"type": "integer",
+				"usage": "BOTH",
+				"originalName": "Year"
+			},
+			{
+				"name": "CostSalving",
+				"label": "Cost Savings",
+				"type": "decimal",
+				"usage": "BOTH",
+				"originalName": "CostSalving"
+			},
+			{
+				"name": "ImplementationCosts",
+				"label": "Implementation Costs",
+				"type": "decimal",
+				"usage": "BOTH",
+				"originalName": "ImplementationCosts"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH",
+				"originalName": "updatedAt"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH",
+				"originalName": "createdAt"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH",
+				"originalName": "updatedBy"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH",
+				"originalName": "createdBy"
+			},
+			{
+				"name": "",
+				"label": "",
+				"type": "",
+				"items": [],
+				"usage": "BOTH",
+				"originalName": "ProjectID"
+			}
+		],
+		"overriddenFieldCatalog": true
+	},
+	"documentation": {},
+	"name": "KaizenCosts",
+	"description": "KaizenCosts",
+	"group": null,
+	"type": "T",
+	"ver": "24.2.5.1626",
+	"disabled": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f"
+}

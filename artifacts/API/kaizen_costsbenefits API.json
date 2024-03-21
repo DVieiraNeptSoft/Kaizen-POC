@@ -1,0 +1,495 @@
+{
+	"id": "8d37a126-9692-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T11:13:29.613Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "5612e63b-de5c-4397-a39b-3734a5702b3e",
+			"path": "/kaizen_costsbenefits",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_costsbenefits"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "b2444703-9f13-45db-b6af-ac6bbea4a331",
+			"path": "/kaizen_costsbenefits",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "kaizen_costsbenefits"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_costsbenefits"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d45008dd-bd69-4c75-b077-48bd1c971f90",
+			"path": "/kaizen_costsbenefits",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "kaizen_costsbenefits"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_costsbenefits"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "148f12cb-b894-4fef-b05a-36528cf982cc",
+			"path": "/kaizen_costsbenefits",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_costsbenefits"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "f69846fb-f9ca-44c8-a389-e01dbc43b4f1",
+			"path": "/kaizen_costsbenefits/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "5657d5f4-f916-4ed1-8068-637b905eb494",
+			"name": "kaizen_costsbenefits",
+			"properties": [
+				{
+					"id": "e50b5661-2cdb-4504-86b9-bbbc850bc567",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "43f5e9be-5b28-4bf0-aa91-9f73349d9f54",
+					"parent": "",
+					"name": "projectID",
+					"description": "Project ID",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "2cd9f11a-e34c-4181-89d3-a59162c32b2c",
+					"parent": "",
+					"name": "month",
+					"description": "Month",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "970b70c6-74c9-424f-be4c-a74dcafd1f62",
+					"parent": "",
+					"name": "year",
+					"description": "Year",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "093e546a-05cb-4609-90ad-f66cc6276426",
+					"parent": "",
+					"name": "targetedCostSaving",
+					"description": "Targeted Cost Saving",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "edc46903-38de-41ab-8481-f5a21e89e50c",
+					"parent": "",
+					"name": "targetedWorkingCapitalImprovement",
+					"description": "Targeted Working Capital Improvement",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "9585d2eb-5fe3-4b9b-9a6e-bd0034f5f408",
+					"parent": "",
+					"name": "productivitySavings",
+					"description": "Productivity Savings",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e24390df-e364-473a-8d69-7c1c97ba36b0",
+					"parent": "",
+					"name": "scrapReductionCostAvoidance",
+					"description": "Scrap Reduction, Cost Avoidance",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "7ba278b6-1002-4cf3-9ccd-f3e00ba2d242",
+					"parent": "",
+					"name": "kaizenActivityCost",
+					"description": "Kaizen Activity Cost (materials, meals, consultant fees)",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "1ea48658-196a-4182-9c9d-6471974e9259",
+					"parent": "",
+					"name": "requiredLabourHours",
+					"description": "Required labour hours",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "05182aa4-f71b-4023-a655-5e4c537f1a21",
+					"parent": "",
+					"name": "labourHoursRate",
+					"description": "Labour Hours Rate $",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e59f5961-f909-453e-925a-7cf814a61266",
+					"parent": "",
+					"name": "labourHoursCost",
+					"description": "Labour Hours Cost",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "8c9e81a4-a015-4550-a36e-32921d9fc1c3",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "ae64fc17-2162-4877-b0de-b272f982c7ec",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "83ba07e7-d7e2-4411-9a36-07b411bc849c",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "8876af71-94c0-4ca6-99f9-439e3d7bcd37",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "07aa01a0-f957-4693-882e-0d18afc8a014",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "c87f1475-f4ae-436b-b35b-66272b5f6037",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "c57ce5f8-9f33-4090-b935-f83dad049f45",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "918ac609-3826-40d4-b495-d26b20936c6a",
+			"name": "count",
+			"properties": [
+				{
+					"id": "8c5ac271-be72-477b-adfb-ce2e5085b719",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "kaizen_costsbenefits API",
+	"endpoint": "/api/entity",
+	"ver": "24.1.16.115",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

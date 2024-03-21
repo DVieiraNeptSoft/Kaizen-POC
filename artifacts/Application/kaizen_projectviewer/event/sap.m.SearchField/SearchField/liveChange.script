@@ -1,0 +1,9 @@
+const binding = ListProjects.getBinding("items");
+const filter = new sap.ui.model.Filter({
+    filters: [
+        new sap.ui.model.Filter("projectID", "EQ", this.getValue()),
+        new sap.ui.model.Filter("kaizenProjectDepartment", "Contains", this.getValue())
+    ],
+    and: false
+})
+binding.filter([filter]);

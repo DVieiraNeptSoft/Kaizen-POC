@@ -1,0 +1,21 @@
+{
+	"id": "11397157-c292-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T16:29:49.346Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"name": "Kaizen L2 Group Appraisal",
+	"description": null,
+	"ver": "24.1.15.169",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"roles": [
+		{
+			"id": "3d7f603f-c292-ee11-8925-0022489e2d9f",
+			"name": "L2 Approval Role",
+			"ver": "23.12.4.1629"
+		}
+	]
+}

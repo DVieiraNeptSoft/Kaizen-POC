@@ -1,0 +1,95 @@
+{
+	"id": "41fc7f0a-2294-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-06T10:27:26.963Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"fields": [
+		{
+			"id": "886cc41d-4703-43f5-951b-622fec99e8a9",
+			"fieldName": "ProjectID",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Project ID",
+			"isNullable": true
+		},
+		{
+			"id": "75976004-adf8-425a-b953-789a1a154e02",
+			"fieldName": "Type",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Target / Forecast",
+			"isNullable": true
+		},
+		{
+			"id": "48f39314-66c4-4756-b459-ca93bc05ad48",
+			"fieldName": "Date",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Date",
+			"isNullable": true
+		},
+		{
+			"id": "af79ee52-a2b3-4f01-ccdb-161f9efb17f3",
+			"fieldName": "Month",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Month",
+			"isNullable": true
+		},
+		{
+			"id": "f7bce3b9-005c-4a4a-ac0b-fb6ccb972cca",
+			"fieldName": "Year",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Year",
+			"isNullable": true
+		},
+		{
+			"id": "c5255a74-07f1-4602-c1fc-6bbd2c9a225a",
+			"fieldName": "CostSaving",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Cost Saving",
+			"precision": "12",
+			"scale": "2",
+			"isNullable": true
+		},
+		{
+			"id": "7260f933-b325-4e15-fc32-845adeb01d72",
+			"fieldName": "WorkingCapitalImprovements",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Working Capital Improvements",
+			"precision": "12",
+			"scale": "2",
+			"isNullable": true
+		},
+		{
+			"id": "453ea52e-36de-4f8e-b5b7-e99e6b3276d6",
+			"fieldName": "CostAvoidance",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Productivity Savings",
+			"precision": "12",
+			"scale": "2",
+			"isNullable": true
+		},
+		{
+			"id": "26d21cbf-0556-4705-cb84-3b0784e04732",
+			"fieldName": "Site",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Site",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "kaizencostbenefit",
+	"description": "Kaizen Costs and Benefits",
+	"ver": "24.2.5.1618",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"rolesRead": [],
+	"rolesWrite": []
+}

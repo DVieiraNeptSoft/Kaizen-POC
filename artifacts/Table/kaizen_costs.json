@@ -1,0 +1,134 @@
+{
+	"id": "c50282c5-5b93-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-05T10:48:10.270Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"fields": [
+		{
+			"id": "d2a25aa4-e8cd-4da0-a57b-447bf0486c9a",
+			"fieldName": "ProjectID",
+			"fieldType": "integer",
+			"isUnique": true,
+			"description": "Proejct ID"
+		},
+		{
+			"id": "58fecbbd-0524-441d-863e-5ffd15fd5055",
+			"fieldName": "ProjectName",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Project",
+			"isNullable": true
+		},
+		{
+			"id": "23bb7bcb-8caf-483d-8194-804ea75f08bb",
+			"fieldName": "Type",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Type",
+			"isNullable": true
+		},
+		{
+			"id": "b5bee281-c044-406e-f5d2-6fe8d47c9be3",
+			"fieldName": "Date",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Date",
+			"isNullable": true
+		},
+		{
+			"id": "157ceedf-bedb-4229-f709-520d2e6cff78",
+			"fieldName": "Month",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Month",
+			"isNullable": true
+		},
+		{
+			"id": "99259610-11d0-4044-97e6-b6b730a9ea15",
+			"fieldName": "Year",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Year",
+			"isNullable": true
+		},
+		{
+			"id": "f70fda02-c812-4f7c-9262-edb44c8bf2c8",
+			"fieldName": "CostSalving",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Cost Savings",
+			"precision": "10",
+			"scale": "2",
+			"isNullable": true
+		},
+		{
+			"id": "990ffc43-6e54-4815-c045-1bbbd1cc814d",
+			"fieldName": "ImplementationCosts",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Implementation Costs",
+			"precision": "10",
+			"scale": "2",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "212ccf40-e899-4b6a-a84c-c2483b57b4bf",
+			"name": "FK_5650528bb2ab7f7bb3bf24e29df",
+			"referencedTable": "kaizen_project",
+			"referencedTableId": "3A1C5D26-5B93-EE11-8925-0022489E2D9F",
+			"referencedTableColumns": [
+				{
+					"id": "1af9c485-9dc2-48b5-9c57-7800955f687b",
+					"fieldName": "ProjectID",
+					"fieldType": "integer",
+					"isUnique": true,
+					"description": "Project ID"
+				},
+				{
+					"id": "06739f54-0204-44dc-e592-e506a6d36780",
+					"fieldName": "ProjectDescription",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "Project Description",
+					"isNullable": true
+				},
+				{
+					"id": "a678440b-88cc-4ab5-8878-5a4fa38d3255",
+					"fieldName": "BusinessUNit",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "Business Unit",
+					"isNullable": true
+				},
+				{
+					"id": "d3e058ab-6882-4d55-e65a-4fa978ef9d98",
+					"fieldName": "PorjectType",
+					"fieldType": "text",
+					"isUnique": false,
+					"isNullable": true
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "1af9c485-9dc2-48b5-9c57-7800955f687b",
+					"id": "d2a25aa4-e8cd-4da0-a57b-447bf0486c9a",
+					"fieldName": "ProjectID",
+					"fieldType": "integer",
+					"isUnique": true,
+					"description": "Proejct ID",
+					"referencedColumnName": "ProjectID"
+				}
+			]
+		}
+	],
+	"name": "kaizen_costs",
+	"description": "Kaizen Cost Table",
+	"ver": "24.2.5.1617",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"rolesRead": [],
+	"rolesWrite": []
+}

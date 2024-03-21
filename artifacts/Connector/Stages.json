@@ -1,0 +1,17 @@
+{
+	"id": "020051c1-ab93-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-05T20:20:39.720Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"settings": {
+		"tableid": "736d1e34-ab93-ee11-8925-0022489e2d9f",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Stages",
+	"description": "Stages",
+	"group": null,
+	"type": "T",
+	"ver": "24.2.5.1627",
+	"disabled": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f"
+}

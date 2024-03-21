@@ -1,0 +1,17 @@
+{
+	"id": "1620d11d-0a99-ee11-8925-0022489e23d1",
+	"createdAt": "2023-12-12T16:18:43.396Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"settings": {
+		"tableid": "d651ef39-1a98-ee11-8925-0022489e23d1",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "AnnualBenefits",
+	"description": "Annual Benefits",
+	"group": null,
+	"type": "T",
+	"ver": "23.12.19.1650",
+	"disabled": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f"
+}

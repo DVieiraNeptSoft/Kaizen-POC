@@ -1,0 +1,3 @@
+if (typeof stage === "undefined" || stage === null || stage === "") { return; }  
+var formattedText = stage;
+return formattedText;

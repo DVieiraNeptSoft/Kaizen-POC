@@ -1,0 +1,755 @@
+{
+	"id": "6d7b55f8-c692-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T17:02:57.280Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"enableValues": true,
+				"enableLeftPanel": true,
+				"enableRightPanel": false,
+				"enableVariant": true,
+				"showLeftPanel": false,
+				"showRightPanel": true,
+				"enableClose": false,
+				"autoRun": true
+			},
+			"form": {},
+			"table": {
+				"showRowTotal": true,
+				"showColTotal": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "projectID",
+				"label": "projectID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "stage",
+				"label": "stage",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L0approver",
+				"label": "L0approver",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L0approver_dateApproved",
+				"label": "L0approver_dateApproved",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L1approver",
+				"label": "L1approver",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L1approver_dateApproved",
+				"label": "L1approver_dateApproved",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L2approver",
+				"label": "L2approver",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L2approver_dateApproved",
+				"label": "L2approver_dateApproved",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L3approver",
+				"label": "L3approver",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L3approver_dateApproved",
+				"label": "L3approver_dateApproved",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L4approver",
+				"label": "L4approver",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L4approver_dateApproved",
+				"label": "L4approver_dateApproved",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L5approver",
+				"label": "L5approver",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L5approver_dateApproved",
+				"label": "L5approver_dateApproved",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L6approver",
+				"label": "L6approver",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L6approver_dateApproved",
+				"label": "L6approver_dateApproved",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L7approver",
+				"label": "L7approver",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "L7approver_dateApproved",
+				"label": "L7approver_dateApproved",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "originator",
+				"label": "originator",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "dateRaised",
+				"label": "dateRaised",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "improvementType",
+				"label": "Improvement Type",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "sbu",
+				"label": "SBU",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "site",
+				"label": "Site",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "departmentFunctionArea",
+				"label": "Department or Functional Area",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "kaizenProjectDepartment",
+				"label": "Kaizen Project Description",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "businessCaseForAction",
+				"label": "Business Case for Action",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "safetyCriteria",
+				"label": "Safety Criteria",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "qualityCriteria",
+				"label": "Quality Criteria",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "onTimeToPromiseCustomer",
+				"label": "On-Time to Promise Customer Criteria",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "activityTypeCriteria",
+				"label": "Activity Type Criteria",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "opExCiCOEtrainedFacilitatorCriteria",
+				"label": "OpExCI COE, Trained Facilitator Criteria",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "okrImpactCriteria",
+				"label": "OKR Impact Criteria",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "potentialFinancialImpactCriteria",
+				"label": "Potential Financial Impact Criteria",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "governanceDecisionCriteria",
+				"label": "Governance Decision Criteria",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "kaizenPriorityNumberCalculation",
+				"label": "Kaizen Priority Number Calculation (KPN)",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "approvedForPlanning",
+				"label": "Approved for Planning?",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "kaizenFacilitatorName",
+				"label": "Kaizen Facilitator's Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "plannedScheduledStartDate",
+				"label": "Planned Scheduled Start Date N-4 Week",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "targetedCostSaving",
+				"label": "Targeted Cost Saving",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "targetedWorkingCapitalImprovement",
+				"label": "Targeted Working Capital Improvement",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "productivitySavings",
+				"label": "Productivity Savings",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "scrapReductionCostAvoidance",
+				"label": "Scrap Reduction, Cost Avoidance",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "kaizenActivityCost",
+				"label": "Kaizen Activity Cost (materials, meals, consultant fees)",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "requiredLabourHours",
+				"label": "Required labour hours",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "targetedCostSavingSum",
+				"label": "Targeted Cost Saving Total",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "targetedWorkingCapitalImprovementSum",
+				"label": "Targeted Working Capital Improvement Total",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "productivitySavingsSum",
+				"label": "Productivity Savings Sum",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "scrapReductionCostAvoidanceSum",
+				"label": "Scrap Reduction, Cost Avoidance Total",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "kaizenActivityCostSum",
+				"label": "Kaizen Activity Cost Total",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "requiredLabourHoursSum",
+				"label": "Required labour hours Total",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "stage",
+				"text": "stage",
+				"fieldPos": 1
+			}
+		],
+		"fieldsRun": [
+			{
+				"filter": true,
+				"name": "projectID",
+				"text": "projectID",
+				"fieldPos": 2
+			},
+			{
+				"filter": true,
+				"name": "L0approver",
+				"text": "L0approver",
+				"fieldPos": 3
+			},
+			{
+				"filter": true,
+				"name": "L0approver_dateApproved",
+				"text": "L0approver_dateApproved",
+				"enableFilter": false,
+				"fieldPos": 4
+			},
+			{
+				"filter": true,
+				"name": "L1approver",
+				"text": "L1approver",
+				"fieldPos": 5
+			},
+			{
+				"filter": true,
+				"name": "L1approver_dateApproved",
+				"text": "L1approver_dateApproved",
+				"enableFilter": false,
+				"fieldPos": 6
+			},
+			{
+				"filter": true,
+				"name": "L2approver",
+				"text": "L2approver",
+				"fieldPos": 7
+			},
+			{
+				"filter": true,
+				"name": "L2approver_dateApproved",
+				"text": "L2approver_dateApproved",
+				"enableFilter": false,
+				"fieldPos": 8
+			},
+			{
+				"filter": true,
+				"name": "L3approver",
+				"text": "L3approver",
+				"fieldPos": 9
+			},
+			{
+				"filter": true,
+				"name": "L3approver_dateApproved",
+				"text": "L3approver_dateApproved",
+				"enableFilter": false,
+				"fieldPos": 10
+			},
+			{
+				"filter": true,
+				"name": "L4approver",
+				"text": "L4approver",
+				"fieldPos": 11
+			},
+			{
+				"filter": true,
+				"name": "L4approver_dateApproved",
+				"text": "L4approver_dateApproved",
+				"enableFilter": false,
+				"fieldPos": 12
+			},
+			{
+				"filter": true,
+				"name": "L5approver",
+				"text": "L5approver",
+				"fieldPos": 13
+			},
+			{
+				"filter": true,
+				"name": "L5approver_dateApproved",
+				"text": "L5approver_dateApproved",
+				"enableFilter": false,
+				"fieldPos": 14
+			},
+			{
+				"filter": true,
+				"name": "L6approver",
+				"text": "L6approver",
+				"fieldPos": 15
+			},
+			{
+				"filter": true,
+				"name": "L6approver_dateApproved",
+				"text": "L6approver_dateApproved",
+				"enableFilter": false,
+				"fieldPos": 16
+			},
+			{
+				"filter": true,
+				"name": "L7approver",
+				"text": "L7approver",
+				"fieldPos": 17
+			},
+			{
+				"filter": true,
+				"name": "L7approver_dateApproved",
+				"text": "L7approver_dateApproved",
+				"enableFilter": false,
+				"fieldPos": 18
+			},
+			{
+				"filter": true,
+				"name": "originator",
+				"text": "originator",
+				"fieldPos": 19
+			},
+			{
+				"filter": true,
+				"name": "dateRaised",
+				"text": "dateRaised",
+				"enableFilter": false,
+				"fieldPos": 20
+			},
+			{
+				"filter": true,
+				"name": "improvementType",
+				"text": "Improvement Type",
+				"fieldPos": 21
+			},
+			{
+				"filter": true,
+				"name": "site",
+				"text": "Site",
+				"fieldPos": 22
+			},
+			{
+				"filter": true,
+				"name": "departmentFunctionArea",
+				"text": "Department or Functional Area",
+				"fieldPos": 23
+			},
+			{
+				"filter": true,
+				"name": "kaizenProjectDepartment",
+				"text": "Kaizen Project Description",
+				"fieldPos": 24
+			},
+			{
+				"filter": true,
+				"name": "businessCaseForAction",
+				"text": "Business Case for Action",
+				"fieldPos": 25
+			},
+			{
+				"filter": true,
+				"name": "safetyCriteria",
+				"text": "Safety Criteria",
+				"enableFilter": false,
+				"fieldPos": 26
+			},
+			{
+				"filter": true,
+				"name": "qualityCriteria",
+				"text": "Quality Criteria",
+				"enableFilter": false,
+				"fieldPos": 27
+			},
+			{
+				"filter": true,
+				"name": "onTimeToPromiseCustomer",
+				"text": "On-Time to Promise Customer Criteria",
+				"enableFilter": false,
+				"fieldPos": 28
+			},
+			{
+				"filter": true,
+				"name": "activityTypeCriteria",
+				"text": "Activity Type Criteria",
+				"enableFilter": false,
+				"fieldPos": 29
+			},
+			{
+				"filter": true,
+				"name": "opExCiCOEtrainedFacilitatorCriteria",
+				"text": "OpExCI COE, Trained Facilitator Criteria",
+				"enableFilter": false,
+				"fieldPos": 30
+			},
+			{
+				"filter": true,
+				"name": "okrImpactCriteria",
+				"text": "OKR Impact Criteria",
+				"enableFilter": false,
+				"fieldPos": 31
+			},
+			{
+				"filter": true,
+				"name": "potentialFinancialImpactCriteria",
+				"text": "Potential Financial Impact Criteria",
+				"enableFilter": false,
+				"fieldPos": 32
+			},
+			{
+				"filter": true,
+				"name": "governanceDecisionCriteria",
+				"text": "Governance Decision Criteria",
+				"enableFilter": false,
+				"fieldPos": 33
+			},
+			{
+				"filter": true,
+				"name": "kaizenPriorityNumberCalculation",
+				"text": "Kaizen Priority Number Calculation (KPN)",
+				"enableFilter": false,
+				"fieldPos": 34
+			},
+			{
+				"filter": true,
+				"name": "approvedForPlanning",
+				"text": "Approved for Planning?",
+				"fieldPos": 35
+			},
+			{
+				"filter": true,
+				"name": "kaizenFacilitatorName",
+				"text": "Kaizen Facilitator's Name",
+				"fieldPos": 36
+			},
+			{
+				"filter": true,
+				"name": "plannedScheduledStartDate",
+				"text": "Planned Scheduled Start Date N-4 Week",
+				"enableFilter": false,
+				"fieldPos": 37
+			},
+			{
+				"filter": true,
+				"name": "targetedWorkingCapitalImprovement",
+				"text": "Targeted Working Capital Improvement",
+				"fieldPos": 38
+			},
+			{
+				"filter": true,
+				"name": "productivitySavings",
+				"text": "Productivity Savings",
+				"fieldPos": 39
+			},
+			{
+				"filter": true,
+				"name": "scrapReductionCostAvoidance",
+				"text": "Scrap Reduction, Cost Avoidance",
+				"fieldPos": 40
+			},
+			{
+				"filter": true,
+				"name": "kaizenActivityCost",
+				"text": "Kaizen Activity Cost (materials, meals, consultant fees)",
+				"fieldPos": 41
+			},
+			{
+				"filter": true,
+				"name": "requiredLabourHours",
+				"text": "Required labour hours",
+				"fieldPos": 42
+			},
+			{
+				"filter": true,
+				"name": "targetedCostSavingSum",
+				"text": "Targeted Cost Saving Total",
+				"fieldPos": 43
+			},
+			{
+				"filter": true,
+				"name": "targetedWorkingCapitalImprovementSum",
+				"text": "Targeted Working Capital Improvement Total",
+				"fieldPos": 44
+			},
+			{
+				"filter": true,
+				"name": "productivitySavingsSum",
+				"text": "Productivity Savings Sum",
+				"fieldPos": 45
+			},
+			{
+				"filter": true,
+				"name": "scrapReductionCostAvoidanceSum",
+				"text": "Scrap Reduction, Cost Avoidance Total",
+				"fieldPos": 46
+			},
+			{
+				"filter": true,
+				"name": "kaizenActivityCostSum",
+				"text": "Kaizen Activity Cost Total",
+				"fieldPos": 47
+			},
+			{
+				"filter": true,
+				"name": "requiredLabourHoursSum",
+				"text": "Required labour hours Total",
+				"fieldPos": 48
+			},
+			{
+				"filter": true,
+				"name": "updatedAt",
+				"text": "Updated At",
+				"enableFilter": false,
+				"fieldPos": 49
+			},
+			{
+				"filter": true,
+				"name": "createdAt",
+				"text": "Created At",
+				"enableFilter": false,
+				"fieldPos": 50
+			},
+			{
+				"filter": true,
+				"name": "updatedBy",
+				"text": "Updated By",
+				"fieldPos": 51
+			},
+			{
+				"filter": true,
+				"name": "createdBy",
+				"text": "Created By",
+				"fieldPos": 52
+			},
+			{
+				"filter": true,
+				"name": "targetedCostSaving",
+				"text": "Targeted Cost Saving",
+				"fieldPos": 53
+			},
+			{
+				"filter": true,
+				"name": "sbu",
+				"text": "SBU",
+				"fieldPos": 54
+			},
+			{
+				"filter": true,
+				"name": "stage",
+				"text": "stage",
+				"fieldPos": 55
+			}
+		],
+		"defaultVariant": {
+			"id": "78694c7c-4191-4f98-9c90-32f2c0af00cf",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [
+				{
+					"filter": true,
+					"name": "sbu",
+					"text": "SBU",
+					"fieldPos": 1,
+					"visible": false,
+					"filterType": "Transparent"
+				},
+				{
+					"filter": true,
+					"name": "stage",
+					"text": "stage",
+					"fieldPos": 3,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {},
+			"rendererName": "Column Chart",
+			"aggregatorName": "Count"
+		},
+		"id": "6D7B55F8-C692-EE11-8925-0022489E2D9F"
+	},
+	"name": "KaizenProjectsBI",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "8b51cfd5-c692-ee11-8925-0022489e2d9f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.2.5.1623",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_bi",
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

@@ -1,0 +1,17 @@
+{
+	"id": "8b51cfd5-c692-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T17:01:59.340Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"settings": {
+		"tableid": "ef404c52-9592-ee11-8925-0022489e2d9f",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "kaizenproject",
+	"description": "Kaizen Projects",
+	"group": null,
+	"type": "T",
+	"ver": "23.12.19.1649",
+	"disabled": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f"
+}

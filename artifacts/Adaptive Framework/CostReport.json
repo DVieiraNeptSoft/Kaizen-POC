@@ -1,0 +1,190 @@
+{
+	"id": "904327fb-2294-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-06T10:34:06.856Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": 0,
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"enableRun": false,
+				"enableCreate": false,
+				"enableDelete": false
+			},
+			"form": {
+				"enableCompact": false,
+				"filterExpandable": true,
+				"headerExpanded": true,
+				"showFilter": false
+			},
+			"table": {
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"enableCompact": false,
+				"fixedLayout": true,
+				"inset": false,
+				"enableAutoPopin": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "CostSaving",
+				"label": "Cost Saving",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Date",
+				"label": "Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Month",
+				"label": "Month",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CostAvoidance",
+				"label": "Productivity Savings",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ProjectID",
+				"label": "Project ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Site",
+				"label": "Site",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Type",
+				"label": "Target / Forecast",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "WorkingCapitalImprovements",
+				"label": "Working Capital Improvements",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Year",
+				"label": "Year",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"popinDisplay": "Inline",
+				"visible": true,
+				"name": "Type",
+				"text": "Target / Forecast",
+				"fieldPos": 1,
+				"enableGroup": true
+			},
+			{
+				"popinDisplay": "Inline",
+				"visible": true,
+				"name": "Year",
+				"text": "Year",
+				"fieldPos": 2,
+				"enableGroup": false
+			},
+			{
+				"popinDisplay": "Inline",
+				"visible": true,
+				"name": "CostSaving",
+				"text": "Cost Saving",
+				"enableFilter": false,
+				"fieldPos": 3,
+				"hAlign": "Right"
+			},
+			{
+				"popinDisplay": "Inline",
+				"visible": true,
+				"name": "WorkingCapitalImprovements",
+				"text": "Working Capital Improvements",
+				"enableFilter": false,
+				"fieldPos": 4,
+				"hAlign": "Right"
+			},
+			{
+				"popinDisplay": "Inline",
+				"visible": true,
+				"name": "CostAvoidance",
+				"text": "Productivity Savings",
+				"enableFilter": false,
+				"fieldPos": 5
+			}
+		],
+		"defaultVariant": {
+			"id": "60fa1c50-47ff-4add-e73b-1cf2c4f48014",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "CostReport",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "814475c9-2294-ee11-8925-0022489e2d9f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.12.19.1647",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_table",
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

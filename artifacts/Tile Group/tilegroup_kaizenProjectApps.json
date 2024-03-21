@@ -1,0 +1,110 @@
+{
+	"id": "6512601c-a292-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T12:39:14.913Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"translation": [],
+	"tilesOrder": [
+		"2eccadf5-a192-ee11-8925-0022489e2d9f",
+		"dd59d482-c092-ee11-8925-0022489e2d9f",
+		"f85c995d-2694-ee11-8925-0022489e2d9f",
+		"6c5f5376-2694-ee11-8925-0022489e2d9f",
+		"ea149dd8-a893-ee11-8925-0022489e2d9f",
+		"ffea6a4e-0b99-ee11-8925-0022489e23d1"
+	],
+	"tilegroupsOrder": [],
+	"configMessage": {
+		"type": "None"
+	},
+	"title": "Kaizen Funnel",
+	"subTitle": null,
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "",
+	"backgroundShade": null,
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "23.12.13.955",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "tilegroup_kaizenProjectApps",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": false,
+	"roleTag": null,
+	"cockpitTileGroup": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"roles": [],
+	"tiles": [
+		{
+			"id": "ffea6a4e-0b99-ee11-8925-0022489e23d1",
+			"name": "Validated Benefits",
+			"title": "Validated Benefits",
+			"ver": "23.12.19.1650"
+		},
+		{
+			"id": "f85c995d-2694-ee11-8925-0022489e2d9f",
+			"name": "CostReport",
+			"title": "Kaizen Costs",
+			"ver": "24.2.5.1623"
+		},
+		{
+			"id": "ea149dd8-a893-ee11-8925-0022489e2d9f",
+			"name": "Kaizen Project List",
+			"title": "Kaizen Project List",
+			"ver": "23.12.19.1650"
+		},
+		{
+			"id": "dd59d482-c092-ee11-8925-0022489e2d9f",
+			"name": "tile_kaizenProjectViewer",
+			"title": "Project Viewer App",
+			"ver": "23.12.19.1651"
+		},
+		{
+			"id": "6c5f5376-2694-ee11-8925-0022489e2d9f",
+			"name": "BenefitReport",
+			"title": "Kaizen Working Capital",
+			"ver": "23.12.19.1650"
+		},
+		{
+			"id": "2eccadf5-a192-ee11-8925-0022489e2d9f",
+			"name": "tile_kaizenCreateProject",
+			"title": "Project Creator App",
+			"ver": "23.12.19.1650"
+		}
+	],
+	"tilegroups": []
+}

@@ -1,0 +1,208 @@
+{
+	"id": "1820d11d-0a99-ee11-8925-0022489e23d1",
+	"createdAt": "2023-12-12T16:18:46.413Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"enableValues": true,
+				"enableLeftPanel": true,
+				"enableRightPanel": true,
+				"enableVariant": false,
+				"showLeftPanel": true,
+				"showRightPanel": false,
+				"enableClose": false,
+				"autoRun": true,
+				"title": "Validated Costs"
+			},
+			"form": {},
+			"table": {
+				"showRowTotal": true,
+				"showColTotal": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "projectID",
+				"label": "Project ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "date",
+				"label": "Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "year",
+				"label": "Year",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "month",
+				"label": "Month",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "validatedCostsSaving",
+				"label": "Validated Costs Savings",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "validatedWorkingCapital",
+				"label": "Validated Working Capital improvement",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "validatedCostAvoidance",
+				"label": "Validated Cost Avoidance",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "year",
+				"text": "Year",
+				"fieldPos": 1
+			},
+			{
+				"visible": true,
+				"name": "month",
+				"text": "Month",
+				"fieldPos": 2,
+				"type": "SingleSelect"
+			}
+		],
+		"fieldsRun": [
+			{
+				"filter": true,
+				"name": "projectID",
+				"text": "Project ID",
+				"fieldPos": 3
+			},
+			{
+				"filter": true,
+				"name": "date",
+				"text": "Date",
+				"enableFilter": false,
+				"fieldPos": 4
+			},
+			{
+				"filter": true,
+				"name": "year",
+				"text": "Year",
+				"fieldPos": 5
+			},
+			{
+				"filter": true,
+				"name": "month",
+				"text": "Month",
+				"fieldPos": 6
+			},
+			{
+				"filter": true,
+				"name": "validatedCostsSaving",
+				"text": "Validated Costs Savings",
+				"enableFilter": false,
+				"fieldPos": 7
+			},
+			{
+				"filter": true,
+				"name": "validatedWorkingCapital",
+				"text": "Validated Working Capital improvement",
+				"enableFilter": false,
+				"fieldPos": 8
+			},
+			{
+				"filter": true,
+				"name": "validatedCostAvoidance",
+				"text": "Validated Cost Avoidance",
+				"enableFilter": false,
+				"fieldPos": 9
+			}
+		],
+		"defaultVariant": {
+			"id": "f97d85e3-9982-4658-9b12-836042cf72e2",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [
+				{
+					"filter": true,
+					"name": "year",
+					"text": "Year",
+					"fieldPos": 5,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"val": [
+				{
+					"filter": true,
+					"name": "validatedCostAvoidance",
+					"text": "Validated Cost Avoidance",
+					"enableFilter": false,
+					"fieldPos": 9,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"inclusions": {},
+			"exclusions": {},
+			"rendererName": "Table",
+			"aggregatorName": "Sum"
+		},
+		"id": "1820D11D-0A99-EE11-8925-0022489E23D1"
+	},
+	"name": "AnnualBenefits",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "1620d11d-0a99-ee11-8925-0022489e23d1",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.12.19.1648",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_bi",
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

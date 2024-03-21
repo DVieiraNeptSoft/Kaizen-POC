@@ -1,0 +1,1281 @@
+{
+	"id": "26554015-9692-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T11:13:00.453Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "99827769-1daa-4465-8cba-0bf6af6c7c2f",
+			"path": "/kaizen_projecttable",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_projecttable"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "5f4227fb-492e-436a-bd32-9ef4f677186e",
+			"path": "/kaizen_projecttable",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "kaizen_projecttable"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_projecttable"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "21884344-c054-4a57-add5-d4b6de31a4af",
+			"path": "/kaizen_projecttable",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "kaizen_projecttable"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_projecttable"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "90cfbf19-ee9c-4579-b3ee-e11aec64daba",
+			"path": "/kaizen_projecttable",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_projecttable"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "913b73fa-dd38-42c4-aec8-d8e3f7b8ebc1",
+			"path": "/kaizen_projecttable/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "ea6cba82-cc35-4510-829b-3d6d6df18617",
+			"name": "kaizen_projecttable",
+			"properties": [
+				{
+					"id": "2bc223c3-a745-49ff-9686-f8cdea5b6bf8",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "01bceb98-9307-4f47-9b8a-750aa0629614",
+					"parent": "",
+					"name": "projectID",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "f4e80e01-f907-4893-8724-0805227e322a",
+					"parent": "",
+					"name": "stage",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "0f232b0b-b554-4407-9ec6-9adc567c4333",
+					"parent": "",
+					"name": "L0approver",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "2ab6850f-089c-461e-864f-a67ef148d4aa",
+					"parent": "",
+					"name": "L0approver_dateApproved",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "f7f1b280-310f-47a7-aabc-c53dcd4ee777",
+					"parent": "",
+					"name": "L1approver",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "441382e8-d625-4cd4-87c0-c82f2663e73b",
+					"parent": "",
+					"name": "L1approver_dateApproved",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "ae2c4edf-fe8f-492d-8f19-50bdc8c25f4e",
+					"parent": "",
+					"name": "L2approver",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "466e774d-4c7f-40eb-8959-db3ee64dbef1",
+					"parent": "",
+					"name": "L2approver_dateApproved",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "d783c340-fed9-4f8c-b14a-bf9a6c1eb485",
+					"parent": "",
+					"name": "L3approver",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "5db1b2be-8d04-4789-a37f-2a3163e0fe5f",
+					"parent": "",
+					"name": "L3approver_dateApproved",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "016e0361-2ef0-4d9e-852a-9cebc1c6b64d",
+					"parent": "",
+					"name": "L4approver",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "0947cee9-5f98-438c-8bfd-d83b41cbca67",
+					"parent": "",
+					"name": "L4approver_dateApproved",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "7e436037-2e6c-4523-9788-08e570b5485a",
+					"parent": "",
+					"name": "L5approver",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "367f3acd-3a79-4c75-99f7-6cd8a30c6f4d",
+					"parent": "",
+					"name": "L5approver_dateApproved",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "74276ce9-b87e-4331-b68d-00fc7ac97fa7",
+					"parent": "",
+					"name": "L6approver",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "81a88291-2815-430d-8993-c9c2c926f692",
+					"parent": "",
+					"name": "L6approver_dateApproved",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "b58e7ef4-d901-4114-a619-cdb66c02d06f",
+					"parent": "",
+					"name": "L7approver",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "ee5e4628-676c-478a-83a0-6aa465984278",
+					"parent": "",
+					"name": "L7approver_dateApproved",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "8d29e119-b28e-4114-bdc1-6002d1368bca",
+					"parent": "",
+					"name": "originator",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "f199c060-441f-499f-8fb6-754d300d2f8e",
+					"parent": "",
+					"name": "dateRaised",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "b28fe786-8fa2-4ba2-8de9-e3ebcc0492b2",
+					"parent": "",
+					"name": "improvementType",
+					"description": "Improvement Type",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "9141b156-fd1b-4244-ba23-0078bb590f1b",
+					"parent": "",
+					"name": "sbu",
+					"description": "SBU",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "b081c86f-744f-4585-9e58-b9a563621cc2",
+					"parent": "",
+					"name": "site",
+					"description": "Site",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "a6f8cbf6-64b3-4e66-89fd-605a27ce0e79",
+					"parent": "",
+					"name": "departmentFunctionArea",
+					"description": "Department or Functional Area",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "45c6ef20-4efb-456c-9863-556be7dda26b",
+					"parent": "",
+					"name": "kaizenProjectDepartment",
+					"description": "Kaizen Project Description",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "abea6538-bfbe-41e1-b259-a215da3a4a9b",
+					"parent": "",
+					"name": "businessCaseForAction",
+					"description": "Business Case for Action",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "69c3b412-8cfa-4e17-851f-e3c23e4fb246",
+					"parent": "",
+					"name": "safetyCriteria",
+					"description": "Safety Criteria",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "339e139a-bdd8-4266-8afc-f0465969c449",
+					"parent": "",
+					"name": "qualityCriteria",
+					"description": "Quality Criteria",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "41892166-f87b-48d3-ae29-a3ac7f1b3a80",
+					"parent": "",
+					"name": "onTimeToPromiseCustomer",
+					"description": "On-Time to Promise Customer Criteria",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "97f57deb-f39b-4516-99f7-072010e64b7f",
+					"parent": "",
+					"name": "activityTypeCriteria",
+					"description": "Activity Type Criteria",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "c67f340b-21ae-4d9a-9932-4613aa776c4b",
+					"parent": "",
+					"name": "opExCiCOEtrainedFacilitatorCriteria",
+					"description": "OpExCI COE, Trained Facilitator Criteria",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "567e2ae7-3ed6-40c4-bf62-c816c3b27078",
+					"parent": "",
+					"name": "okrImpactCriteria",
+					"description": "OKR Impact Criteria",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "ae2a01d4-0ea6-4f9d-b650-103970a01f50",
+					"parent": "",
+					"name": "potentialFinancialImpactCriteria",
+					"description": "Potential Financial Impact Criteria",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "faf2d97e-294f-4702-87d7-218f75d09b78",
+					"parent": "",
+					"name": "governanceDecisionCriteria",
+					"description": "Governance Decision Criteria",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "28d2ea04-0b66-4f8f-96ab-73e5d186c998",
+					"parent": "",
+					"name": "kaizenPriorityNumberCalculation",
+					"description": "Kaizen Priority Number Calculation (KPN)",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "c34e2ae8-45b8-4565-9df9-f25376ef14f5",
+					"parent": "",
+					"name": "approvedForPlanning",
+					"description": "Approved for Planning?",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "f54909ed-a362-4cc8-a75c-744b22372e57",
+					"parent": "",
+					"name": "kaizenFacilitatorName",
+					"description": "Kaizen Facilitator's Name",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "ea6d8d7f-33f4-4805-a7c0-162f5c4a101c",
+					"parent": "",
+					"name": "plannedScheduledStartDate",
+					"description": "Planned Scheduled Start Date N-4 Week",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "71f15a1b-9d1f-477c-a878-e8b63ac0a69b",
+					"parent": "",
+					"name": "targetedCostSaving",
+					"description": "Targeted Cost Saving",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "4fc1f8db-721a-409f-8a9c-1624be9c2cb2",
+					"parent": "",
+					"name": "targetedWorkingCapitalImprovement",
+					"description": "Targeted Working Capital Improvement",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "0dfa63c9-104e-499c-bcfe-efc3f27b41c2",
+					"parent": "",
+					"name": "productivitySavings",
+					"description": "Productivity Savings",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "f22c2131-4d73-4e6a-93f8-2d3c21fda1e5",
+					"parent": "",
+					"name": "scrapReductionCostAvoidance",
+					"description": "Scrap Reduction, Cost Avoidance",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "13ac8fd0-24dd-4a0c-b5d1-cfbd22aabf97",
+					"parent": "",
+					"name": "kaizenActivityCost",
+					"description": "Kaizen Activity Cost (materials, meals, consultant fees)",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "c3a038d8-3ec3-4a7f-a623-b11ec92344e1",
+					"parent": "",
+					"name": "requiredLabourHours",
+					"description": "Required labour hours",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "75dfb0cf-7b31-40e9-981f-d2924f20e43b",
+					"parent": "",
+					"name": "targetedCostSavingSum",
+					"description": "Targeted Cost Saving Total",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "e037fc99-45ba-4cc1-8684-e9f68d20bbe8",
+					"parent": "",
+					"name": "targetedWorkingCapitalImprovementSum",
+					"description": "Targeted Working Capital Improvement Total",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "9a318a05-1dfe-454c-905e-ed007f94de5c",
+					"parent": "",
+					"name": "productivitySavingsSum",
+					"description": "Productivity Savings Sum",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "9004ac28-5c9e-4c9f-bab5-20c4fd81a55b",
+					"parent": "",
+					"name": "scrapReductionCostAvoidanceSum",
+					"description": "Scrap Reduction, Cost Avoidance Total",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "4e90ee9a-f11f-4b7d-8e48-20e2b8fdd6a0",
+					"parent": "",
+					"name": "kaizenActivityCostSum",
+					"description": "Kaizen Activity Cost Total",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "5e729ff4-09d6-4672-aa4c-f1d2657c9db3",
+					"parent": "",
+					"name": "requiredLabourHoursSum",
+					"description": "Required labour hours Total",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "3f23cc1f-7e8d-4d6d-b404-b8c8df99b585",
+					"parent": "",
+					"name": "kaizenStartDate",
+					"description": "Kaizen Start Date (N)",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "bba55585-1602-441a-abfb-9e3e29821a01",
+					"parent": "",
+					"name": "kaizenCompleteDate",
+					"description": "Kaizen Complete Date",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "6eeeec8c-d731-4fad-a57c-0738d7b668c1",
+					"parent": "",
+					"name": "kaizenReportDate",
+					"description": "Kaizen Report Out Date",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "fea2082b-c45e-42ee-bc2b-309a55077b33",
+					"parent": "",
+					"name": "benefitsStartDate",
+					"description": "Benefits Start Date (N+2mo)",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "0fe49533-dc5d-496b-b5ac-b5383bf053bf",
+					"parent": "",
+					"name": "validatedCostsSaving",
+					"description": "Validated Costs Savings",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "b5a30a30-3d36-4178-a56a-a7f36d5ce1f4",
+					"parent": "",
+					"name": "validatedWorkingCapital",
+					"description": "Validated Working Capital improvement",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "17cb9d23-2211-4f46-bc32-aa9060265987",
+					"parent": "",
+					"name": "validatedCostAvoidance",
+					"description": "Validated Scrap Reduction, Cost Avoidance",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "efe7cae0-4fd4-4adc-8e75-03b3eb1f6de2",
+					"parent": "",
+					"name": "totalKaizenBenefits",
+					"description": "TOTAL Kaizen BENEFIT IS SUM OF CS + WCR + CA, ANNUALIZED",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "d8082ebb-cd71-4932-a749-972c662a79eb",
+					"parent": "",
+					"name": "siteFinanceSignOff",
+					"description": "Site Finance Sign Off",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "c7226f15-5c42-4f6c-84a6-f09d134a2e1e",
+					"parent": "",
+					"name": "financeSignOffDate",
+					"description": "Finance Sign Off Date",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "7cac7803-9e87-43a1-9f0f-7e87d7ea5c57",
+					"parent": "",
+					"name": "sbuSponsorSignOff",
+					"description": "SBU Sponsor Sign Off",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "c3c48675-e8f1-4dc0-a557-9fe74811efcc",
+					"parent": "",
+					"name": "sbuSponsorSignOffDate",
+					"description": "SBU Sponsor Sign Off date",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "b96b30c4-64ef-49a3-8785-d050f306bcd7",
+					"parent": "",
+					"name": "labourHoursRate",
+					"description": "Labour Hours Rate $",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "1891b88f-070f-4ef8-bb08-e13e7533c9c7",
+					"parent": "",
+					"name": "labourHoursCost",
+					"description": "Labour Hours Cost",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "f45d0784-5b2c-4cbe-9521-31996e6ec526",
+					"parent": "",
+					"name": "validatedProductivitySavings",
+					"description": "Validated Productivity Savings",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "b08a7ae7-5c16-475e-ac80-e7db667546be",
+					"parent": "",
+					"name": "validatedKaizenActivityCost",
+					"description": "Validated Kaizen Activity Cost (Materials, Meals, Consultant Fees)",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "c6d0b7f5-d8e5-4137-929e-144c4f9f37aa",
+					"parent": "",
+					"name": "validatedRequiredLabourHours",
+					"description": "Validated Required Labour Hours",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "786c9538-c7b2-46d6-a26d-4635d1d66c3e",
+					"parent": "",
+					"name": "validatedLabourHoursRate",
+					"description": "Validated Labour Hours Rate $",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "0cbd893d-e61c-480c-b99f-c38764c0c8bb",
+					"parent": "",
+					"name": "validatedLabourHoursCost",
+					"description": "Validated Labour Hours Cost",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "abdee1a4-b0d4-46dc-9782-9dd117794fd0",
+					"parent": "",
+					"name": "totalKaizenCosts",
+					"description": "Total Kaizen Costs",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "db7ca274-6f89-4e7a-8bbb-f676bc7043e6",
+					"parent": "",
+					"name": "netNumber",
+					"description": "Net Number",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "39f52b05-b364-4083-8728-73716c6ba00c",
+					"parent": "",
+					"name": "easeImplementation",
+					"description": "Ease of Implementation",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "fb6d0b55-901a-4ee7-b5de-fa7d22707dc0",
+					"parent": "",
+					"name": "impactToBusiness",
+					"description": "Impact to Business",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "472914a8-2a6b-4fb2-bc38-46949a9253a0",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "0585b34e-e79e-4ad9-84ae-ccb73076dadc",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "e02533d9-7ee5-489e-a34c-15b1c8db03d5",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				},
+				{
+					"id": "82dc78bd-dbea-4950-b42a-5d98ab4cd93c",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"hideNameField": false,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "43438049-1851-4d87-a0b1-1fe3210482f6",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "fd6f9955-9547-48df-9303-e96b6f0f57f3",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "ed162727-ff5d-4245-9334-a837bb4dd5dc",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "3c8f2de0-bd44-4496-9bfe-bac84afb61b2",
+			"name": "count",
+			"properties": [
+				{
+					"id": "f23c5ac3-7781-4900-8f35-9c8b697e5ccd",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "kaizen_projecttable API",
+	"endpoint": "/api/entity",
+	"ver": "24.1.16.1621",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"apiGroup": null,
+	"apiFormat": 1,
+	"roles": []
+}

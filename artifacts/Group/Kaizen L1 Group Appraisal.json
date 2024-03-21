@@ -1,0 +1,21 @@
+{
+	"id": "a11e5756-c092-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T16:15:28.503Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"name": "Kaizen L1 Group Appraisal",
+	"description": null,
+	"ver": "24.1.15.168",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"roles": [
+		{
+			"id": "25d1153f-c092-ee11-8925-0022489e2d9f",
+			"name": "L1 Appraisal Role",
+			"ver": "23.12.4.1614"
+		}
+	]
+}

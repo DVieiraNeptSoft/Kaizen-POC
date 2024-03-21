@@ -1,0 +1,33 @@
+if (typeof stage === "undefined" || stage === null || stage === "") {
+    return;
+}
+var formattedText = stage;
+
+switch (formattedText) {
+    case "Idea":
+        formattedText = "Error";
+        break;
+    case "L0":
+        formattedText = "Warning";
+        break;
+    case "L1":
+        formattedText = "Warning";
+        break;
+    case "L2":
+        formattedText = "Success";
+        break;
+    case "L3":
+        formattedText = "Warning";
+        break;
+    case "L4":
+        formattedText = "Warning";
+        break;
+    case "L5":
+        formattedText = "Success";
+        break;
+    case "L6":
+        formattedText = "Success";
+        break;
+}
+
+return formattedText;

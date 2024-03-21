@@ -1,0 +1,456 @@
+{
+	"id": "ac509350-1a98-ee11-8925-0022489e23d1",
+	"createdAt": "2023-12-11T11:42:09.353Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "a7d1de8d-8824-466a-8f48-075838f7a912",
+			"path": "/kaizen_annualizebenefits",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_annualizebenefits"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "f35c306c-d17a-489a-bc1a-b4fcf37bdb0d",
+			"path": "/kaizen_annualizebenefits",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "kaizen_annualizebenefits"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_annualizebenefits"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "c6c3f2df-8290-490e-95f2-ad1997df8a13",
+			"path": "/kaizen_annualizebenefits",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "kaizen_annualizebenefits"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_annualizebenefits"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "04f76b9f-c853-4bb8-9ef7-d7d353ad8f2f",
+			"path": "/kaizen_annualizebenefits",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "kaizen_annualizebenefits"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "b5ce9452-d2b5-4463-a433-69159cea9a20",
+			"path": "/kaizen_annualizebenefits/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "cb7e496b-d113-4a0b-85ea-5d5b639f12d7",
+			"name": "kaizen_annualizebenefits",
+			"properties": [
+				{
+					"id": "0eafd9b1-bd23-48a7-8228-4cb7281565fe",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "1e3d3343-f8f5-49e5-a383-b5ec60e317b9",
+					"parent": "",
+					"name": "projectID",
+					"description": "Project ID",
+					"objectType": "integer",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "2d44c97d-5747-44e7-acf4-9eaef01b5eb6",
+					"parent": "",
+					"name": "date",
+					"description": "Date",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "6856a15a-45e6-40c3-a619-048ab1e7f7f0",
+					"parent": "",
+					"name": "year",
+					"description": "Year",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "2b45bdcd-9802-4e90-9376-77eff4157ec9",
+					"parent": "",
+					"name": "month",
+					"description": "Month",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e8c5a076-30c1-4187-8ebb-4b1ad09e2274",
+					"parent": "",
+					"name": "validatedCostsSaving",
+					"description": "Validated Costs Savings",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "2d28a55d-7c9f-4150-bd4a-c4f6ce2c111a",
+					"parent": "",
+					"name": "validatedWorkingCapital",
+					"description": "Validated Working Capital improvement",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "f7947c95-17c7-4161-afaa-e8a8a90af75d",
+					"parent": "",
+					"name": "validatedCostAvoidance",
+					"description": "Validated Scrap Reduction, Cost Avoidance",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "654a1bcd-4817-4d9c-9dca-4ad8a45933aa",
+					"parent": "",
+					"name": "validatedProductivitySavings",
+					"description": "Validated Productivity Savings",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "cf397f46-5fc2-459a-8b48-eb81e148e759",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "0880e75f-7c69-48fb-b778-b45634e7a11b",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "ffdc5d2f-972a-4450-ac22-a6226ad10389",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "832b1f4c-872d-4e47-a662-702998c1f03f",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "11aa678b-2619-4af8-b479-e42caa159b73",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "0c4d51f7-9c5a-4e37-b034-617ec87421e4",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "24ef6be7-e2e2-44d8-a72e-0275a437ffe2",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "95f56ba5-3ddc-4e62-bfc7-c43fdb3b1ed8",
+			"name": "count",
+			"properties": [
+				{
+					"id": "3ac5d124-142b-4be5-8a8e-b0ab763029a1",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "kaizen_annualizebenefits",
+	"endpoint": "/api/entity",
+	"ver": "24.1.16.115",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

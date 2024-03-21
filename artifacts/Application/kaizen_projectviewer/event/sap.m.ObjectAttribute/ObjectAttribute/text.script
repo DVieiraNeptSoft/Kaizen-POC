@@ -1,0 +1,6 @@
+if (typeof dateRaised === "undefined" || dateRaised === null || dateRaised === "") { return; }  
+var formattedText = dateRaised;
+
+formattedText = convertDate(formattedText);
+
+return formattedText;

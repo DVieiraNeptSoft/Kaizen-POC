@@ -1,0 +1,3 @@
+if (typeof kaizenProjectDepartment === "undefined" || kaizenProjectDepartment === null || kaizenProjectDepartment === "") { return; }  
+var formattedText = kaizenProjectDepartment; 
+return formattedText;

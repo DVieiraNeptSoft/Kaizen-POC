@@ -1,0 +1,89 @@
+{
+	"id": "d651ef39-1a98-ee11-8925-0022489e23d1",
+	"createdAt": "2023-12-11T11:41:34.863Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "e43d320c-8f43-46a6-d42b-76d1198f937d",
+			"fieldName": "projectID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Project ID",
+			"isNullable": true
+		},
+		{
+			"id": "b1720d5b-eb21-46f7-9746-7762d50fa1bb",
+			"fieldName": "date",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Date",
+			"isNullable": true
+		},
+		{
+			"id": "7dace575-1b3c-4eec-974c-8689c064fbbe",
+			"fieldName": "year",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Year",
+			"isNullable": true
+		},
+		{
+			"id": "9457a455-f6b0-42a6-cef8-98cac11333e4",
+			"fieldName": "month",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Month",
+			"isNullable": true
+		},
+		{
+			"id": "639977cd-293d-4d1e-9ea6-18eaf8d500e0",
+			"fieldName": "validatedCostsSaving",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Validated Costs Savings",
+			"isNullable": true,
+			"scale": "2",
+			"precision": "20"
+		},
+		{
+			"id": "f57c84a9-4114-40ee-f069-ee732166cc91",
+			"fieldName": "validatedWorkingCapital",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Validated Working Capital improvement",
+			"isNullable": true,
+			"scale": "2",
+			"precision": "20"
+		},
+		{
+			"id": "830544eb-5075-49a8-e150-9cbbfa3fcc80",
+			"fieldName": "validatedCostAvoidance",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Validated Scrap Reduction, Cost Avoidance",
+			"isNullable": true,
+			"scale": "2",
+			"precision": "20"
+		},
+		{
+			"id": "0b1e2c1b-33f6-4cb9-b6e3-0fae31908c5e",
+			"fieldName": "validatedProductivitySavings",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "Validated Productivity Savings",
+			"precision": "20",
+			"scale": "2",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "kaizen_annualizebenefits",
+	"description": null,
+	"ver": "24.1.16.1157",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,21 @@
+{
+	"id": "1aab9b26-1598-ee11-8925-0022489e23d1",
+	"createdAt": "2023-12-11T11:05:11.450Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"name": "Kaizen L6 Group Appraisal",
+	"description": null,
+	"ver": "24.1.15.169",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"roles": [
+		{
+			"id": "f1c7125a-1598-ee11-8925-0022489e23d1",
+			"name": "L6 Approval Role",
+			"ver": "23.12.11.116"
+		}
+	]
+}

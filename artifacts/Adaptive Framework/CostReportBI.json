@@ -1,0 +1,216 @@
+{
+	"id": "5c317ef0-2494-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-06T10:48:15.376Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"enableValues": true,
+				"enableLeftPanel": true,
+				"enableRightPanel": true,
+				"enableVariant": true,
+				"showLeftPanel": false,
+				"showRightPanel": false,
+				"enableClose": false,
+				"autoRun": true,
+				"title": "Cost Savings"
+			},
+			"form": {},
+			"table": {
+				"showRowTotal": true,
+				"showColTotal": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "ProjectID",
+				"label": "Project ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Type",
+				"label": "Target / Forecast",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Date",
+				"label": "Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Month",
+				"label": "Month",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Year",
+				"label": "Year",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CostSaving",
+				"label": "Cost Saving",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "WorkingCapitalImprovements",
+				"label": "Working Capital Improvements",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CostAvoidance",
+				"label": "Productivity Savings",
+				"type": "decimal",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Site",
+				"label": "Site",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"filter": true,
+				"name": "ProjectID",
+				"text": "Project ID",
+				"fieldPos": 1
+			},
+			{
+				"filter": true,
+				"name": "Type",
+				"text": "Target / Validated",
+				"fieldPos": 2
+			},
+			{
+				"filter": true,
+				"name": "Site",
+				"text": "Site",
+				"fieldPos": 3
+			},
+			{
+				"filter": true,
+				"name": "Year",
+				"text": "Year",
+				"fieldPos": 4
+			},
+			{
+				"filter": true,
+				"name": "CostSaving",
+				"text": "Cost Saving",
+				"enableFilter": false,
+				"fieldPos": 5,
+				"hidden": false
+			},
+			{
+				"filter": true,
+				"name": "WorkingCapitalImprovements",
+				"text": "Working Capital Improvements",
+				"enableFilter": false,
+				"fieldPos": 6
+			},
+			{
+				"filter": true,
+				"name": "CostAvoidance",
+				"text": "Working Capital Savings",
+				"enableFilter": false,
+				"fieldPos": 7
+			}
+		],
+		"defaultVariant": {
+			"id": "a920af14-cc53-4a54-daed-3fc89fce86fe",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [
+				{
+					"filter": true,
+					"name": "Type",
+					"text": "Target / Validated",
+					"fieldPos": 2,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"column": [
+				{
+					"filter": true,
+					"name": "Site",
+					"text": "Site",
+					"fieldPos": 3,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"val": [
+				{
+					"filter": true,
+					"name": "CostSaving",
+					"text": "Cost Saving",
+					"enableFilter": false,
+					"fieldPos": 5,
+					"hidden": false,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"inclusions": {},
+			"exclusions": {},
+			"rendererName": "Column Chart",
+			"aggregatorName": "Sum"
+		},
+		"id": "5C317EF0-2494-EE11-8925-0022489E2D9F"
+	},
+	"name": "CostReportBI",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "814475c9-2294-ee11-8925-0022489e2d9f",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.12.19.1647",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_bi",
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

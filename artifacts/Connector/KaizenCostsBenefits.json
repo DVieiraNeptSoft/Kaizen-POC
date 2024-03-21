@@ -1,0 +1,18 @@
+{
+	"id": "814475c9-2294-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-06T10:32:43.476Z",
+	"createdBy": "owen.pettiford@neptune-software.com",
+	"settings": {
+		"tableid": "41fc7f0a-2294-ee11-8925-0022489e2d9f",
+		"hasDocumentation": false,
+		"previewable": true
+	},
+	"documentation": {},
+	"name": "KaizenCostsBenefits",
+	"description": "Kaizen Costs Benefits",
+	"group": null,
+	"type": "T",
+	"ver": "23.12.19.1649",
+	"disabled": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f"
+}

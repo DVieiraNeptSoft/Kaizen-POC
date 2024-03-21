@@ -1,0 +1,105 @@
+{
+	"id": "3c39f4c9-9592-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T11:10:58.036Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"fields": [
+		{
+			"id": "ade9bf9c-f42f-4188-cb1d-086570d821a8",
+			"fieldName": "projectID",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Project ID",
+			"isNullable": true
+		},
+		{
+			"id": "fa808dc4-979d-46fb-94ce-cb5d46023268",
+			"fieldName": "month",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Month",
+			"isNullable": true
+		},
+		{
+			"id": "78fa25b4-e50d-455e-8468-387d98241e44",
+			"fieldName": "year",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Year",
+			"isNullable": true
+		},
+		{
+			"id": "fd1fcba2-40a2-4c4b-e5a2-627297f3cf1d",
+			"fieldName": "targetedCostSaving",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Targeted Cost Saving",
+			"isNullable": true
+		},
+		{
+			"id": "7038c954-4086-4271-ccb3-b6cf957c20b4",
+			"fieldName": "targetedWorkingCapitalImprovement",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Targeted Working Capital Improvement",
+			"isNullable": true
+		},
+		{
+			"id": "94fe0ea5-a35a-4777-a3a8-74636251cc2f",
+			"fieldName": "productivitySavings",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Productivity Savings",
+			"isNullable": true
+		},
+		{
+			"id": "0fa6498d-66d4-4bec-a4c4-da4a0014c32f",
+			"fieldName": "scrapReductionCostAvoidance",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Scrap Reduction, Cost Avoidance",
+			"isNullable": true
+		},
+		{
+			"id": "d82e8cda-e374-42a7-9d23-7973a91900db",
+			"fieldName": "kaizenActivityCost",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Kaizen Activity Cost (materials, meals, consultant fees)",
+			"isNullable": true
+		},
+		{
+			"id": "aaf1704a-3dd1-4de7-970c-5460fab44ace",
+			"fieldName": "requiredLabourHours",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Required labour hours",
+			"isNullable": true
+		},
+		{
+			"id": "8b2d2c97-6677-4149-c744-d69714bc4cf1",
+			"fieldName": "labourHoursRate",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Labour Hours Rate $",
+			"isNullable": true
+		},
+		{
+			"id": "5b5576ab-7fbd-48b7-f415-9d5f28d28e68",
+			"fieldName": "labourHoursCost",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Labour Hours Cost",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "kaizen_costsbenefits",
+	"description": null,
+	"ver": "24.1.16.1155",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"rolesRead": [],
+	"rolesWrite": []
+}

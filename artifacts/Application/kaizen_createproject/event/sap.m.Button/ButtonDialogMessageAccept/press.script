@@ -1,0 +1,22 @@
+console.log(modelSimpleFormKaizenProject.getData());
+
+DialogMessage.close();
+
+App.setBusy(true);
+
+var options = {
+    data: {
+        projectID: modelSimpleFormKaizenProject.getData().projectID,
+        stage: "Idea",
+        originator: modelSimpleFormKaizenProject.getData().originator,
+        dateRaised: modelSimpleFormKaizenProject.getData().dateRaised,
+        improvementType: modelSimpleFormKaizenProject.getData().improvementType,
+        sbu: modelSimpleFormKaizenProject.getData().sbu,
+        site: modelSimpleFormKaizenProject.getData().site,
+        departmentFunctionArea: modelSimpleFormKaizenProject.getData().departmentFunctionArea,
+        kaizenProjectDepartment: modelSimpleFormKaizenProject.getData().kaizenProjectDepartment,
+        businessCaseForAction: modelSimpleFormKaizenProject.getData().businessCaseForAction,
+    },
+};
+
+apiRestAPI_kaizenProjectPOST(options);

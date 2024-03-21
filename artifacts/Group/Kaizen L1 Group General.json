@@ -1,0 +1,21 @@
+{
+	"id": "100dc207-9792-ee11-8925-0022489e2d9f",
+	"createdAt": "2023-12-04T11:19:47.316Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"name": "Kaizen L1 Group General",
+	"description": null,
+	"ver": "24.1.15.169",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "14552044-9192-ee11-8925-0022489e2d9f",
+	"roles": [
+		{
+			"id": "8e6f9b9a-9692-ee11-8925-0022489e2d9f",
+			"name": "L1 General Role",
+			"ver": "23.12.4.1614"
+		}
+	]
+}
